@@ -12,7 +12,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
     vm_size = var.vm_size
     enable_auto_scaling = true
     min_count           = var.min_node_count
-    os_disk_size_gb = vars.os_disk_size_gb
+    os_disk_size_gb = var.os_disk_size_gb
     max_count           = var.max_node_count
     zones = []
     type = var.default_pool_type
