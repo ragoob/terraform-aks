@@ -1,4 +1,4 @@
-# terraform-aks
+# Create AKS cluster on Azure
 
 ### Changing variables values go to terraform.tfvars
 ### Install cluster
