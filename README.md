@@ -10,5 +10,5 @@ make apply
 
 ### Destroy cluster
 ```
-make destory
+make destroy
 ```
